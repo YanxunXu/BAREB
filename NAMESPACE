@@ -1,0 +1,3 @@
+useDynLib(biclustering)
+importFrom(Rcpp, evalCpp)
+exportPattern("^[[:alpha:]]+")

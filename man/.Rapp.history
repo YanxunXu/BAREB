@@ -1,0 +1,4 @@
+load("/Users/yuliangli/Desktop/truedata2.2/adapt_S4_R2.Rdata")
+load("/Users/yuliangli/Desktop/truedata2.2/adapt_S4_R2.Rdata")
+plot(record$theta1)
+plot(record$theta2)
