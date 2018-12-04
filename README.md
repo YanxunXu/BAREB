@@ -11,7 +11,7 @@ You can manually obtain BayRepulsive.tar.gz and install it directly:
 R CMD install BAREB.tar.gz
 ```
 
-Note that the package use R package "Rcpp" and "RcppArmadillo"
+Note that the package uses R package "Rcpp" and "RcppArmadillo"
 
 If this is the first time you use Rcpp, you might find the following link helpful.
 
@@ -88,7 +88,7 @@ for(iter in 1:Niter){
 c<-updatec(z_star, mu,D, 100, n, T0)
 mu_star<-updatemustar(mu,rep(c,T0),n,T0,D)
 z_star<-updateZstar(mu_star,delta,n, T0)
-w <- update_w(K, w, R, S)
+w <- update_w(K, R, S)
 R <- updateR(w, Gamma, Beta,
 Y, Z, delta, mu, mu_star, c, S,
 sigma_square, K, E, X,
@@ -128,7 +128,7 @@ C[1:K[i],1:K[i],i]<-updateC(Gamma[1:K[i],,i],theta2,tau)
 }
 A<-update_RJ(w, K, Gamma,Beta,
 Z, X, R, mu, mu_star, Y, delta, c,sigma_square, C,
-S, theta2)
+S, theta2,q)
 
 
 K<-A$K
@@ -174,7 +174,7 @@ record$sigma_square[iter] <- sigma_square
 
 Full documentation and usage information is available in the manual:
 
-* [BayRepulsive.pdf](https://github.com/bruce1995/BayRepulsive/blob/master/BayRepulsive.pdf)
+* [BAREB.pdf](https://github.com/bruce1995/BAREB/blob/master/BAREB.pdf)
 
 
 ## License
