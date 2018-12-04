@@ -13,6 +13,7 @@
 #' #Use the default value, 1, for hyper-parameter
 #' update_w_beta(S=4,E=c(1,1,1,2,2,3,3,3,4))
 #' 
+#' 
 #' #To change the hyper-parameter to, for example 2
 #' update_w_beta(S=4,E=c(1,1,1,2,2,3,3,3,4),hyper_delta = 2)
 #' @export

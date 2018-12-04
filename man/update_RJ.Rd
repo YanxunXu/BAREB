@@ -4,8 +4,8 @@
 \alias{update_RJ}
 \title{update_RJ}
 \usage{
-update_RJ(w, K, Gamma, Beta, Z, X, R, mu, mu_star, Y, delta, c, sigma_square, C,
-  S, theta, q, hyper_delta = 1)
+update_RJ(w, K, Gamma, Beta, Z, X, R, mu, mu_star, Y, delta, c,
+  sigma_square, C, S, theta, q, hyper_delta = 1)
 }
 \arguments{
 \item{w}{The weights for site level clusters. Should be a matrix with S rows.}

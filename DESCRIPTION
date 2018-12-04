@@ -1,15 +1,13 @@
 Package: BAREB
 Type: Package
-Title: BAREB package
+Title: BAREB: A Bayesian Repulsive Biclustering Model for Periodontal Data
 Version: 1.0
-Date: 2018-02-01
+Date: 2018-11-24
 Author: Yuliang Li <yli193@jhu.edu>, Yanxun Xu <yxu.jhu@gmail.com>, Dipankar Bandyopadhyay <bandyopd@gmail.com>
 Maintainer: Yuliang Li <yli193@jhu.edu>
-Description: A Bayesian Repulsive Biclustering Model for Periodontal Data
+Description: A Bayesian repulsive biclustering method that can simultaneously cluster the Periodontal diseases (PD) patients and their tooth sites after taking the patient- and site-level covariates into consideration. BAREB uses the determinantal point process (DPP) prior to induce diversity among different biclusters to faciliate parsimony and interpretability. Essentially, BAREB is a cluster-wise linear model.
 Depends: R (>= 3.4.3)
-License: JHU
+License: Johns Hopkins University
 Imports: Rcpp (>= 0.12.14), RcppArmadillo
 LinkingTo: Rcpp, RcppArmadillo
-RoxygenNote: 6.0.1
-
-
+RoxygenNote: 6.1.1
